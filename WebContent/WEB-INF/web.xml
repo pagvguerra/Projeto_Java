@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>Projeto_Java</display-name>
+  <servlet>
+    <display-name>AutenticacaoController</display-name>
+    <servlet-name>AutenticacaoController</servlet-name>
+    <servlet-class>br.com.projeto.servlets.AutenticacaoController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AutenticacaoController</servlet-name>
+    <url-pattern>/servlet/AutenticacaoController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <display-name>ProdutoController</display-name>
+    <servlet-name>ProdutoController</servlet-name>
+    <servlet-class>br.com.projeto.servlets.ProdutoController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProdutoController</servlet-name>
+    <url-pattern>/servlet/ProdutoController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <display-name>EmpregadoController</display-name>
+    <servlet-name>EmpregadoController</servlet-name>
+    <servlet-class>br.com.projeto.servlets.EmpregadoController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EmpregadoController</servlet-name>
+    <url-pattern>/servlet/EmpregadoController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <display-name>MarcaController</display-name>
+    <servlet-name>MarcaController</servlet-name>
+    <servlet-class>br.com.projeto.servlets.MarcaController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MarcaController</servlet-name>
+    <url-pattern>/servlet/MarcaController</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>autenticacao.jsp</welcome-file>
+    <welcome-file>admin.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
